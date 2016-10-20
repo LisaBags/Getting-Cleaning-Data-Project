@@ -7,7 +7,7 @@ Data for this analysis was obtained from https://d396qusza40orc.cloudfront.net/g
 ## run.analysis.R
 
 The run.analysis.R script contains the code necessary to: 
-1.  set the working directory to the folder containing the "UCI HAR DATASET" 
+1.  Set the working directory to the folder containing the "UCI HAR DATASET" 
 2.  read in the raw data files. Common files include features.txt (as described above), activity_labels.txt which shows the 6 activities    assigned to a number (1-6), as well as a readme and features_info file.  Data were separated into a train (70%) and test (30%) folder, each of which includes a subject file that lists the participant number (1-30), an x file which shows the data from those participants and a y file which lists the activity numbers that were performed.
 3.  add the appropriately labeled headers to all the files and extract only the variables that represent a mean or standard deviation.
 4.  add a column to the data which assigns an activity label to its corresponding number as described in activity_labels
